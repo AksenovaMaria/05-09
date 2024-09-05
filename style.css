@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 200px;
+}
+
+
+.error {
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.profile{
+    background-color: rgb(255, 216, 216);
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px grey;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.profile img{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+.title{
+    text-align: center;
+    font-size: clamp(1.25rem, 0.832rem + 1.911vi, 3.125rem);
+    color: brown;
+}
